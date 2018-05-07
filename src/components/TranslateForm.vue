@@ -7,13 +7,18 @@
         <select class="form-control" v-model="language">
             <option value="es">Spanish</option>
             <option value="zh">Chinese</option>
-            <option value="ru">French</option>
-            <option value="ru">Arabic</option>
-            <option value="ru">Chinese</option>
+            <option value="fr">French</option>
+            <option value="ar">Arabic</option>
+            <option value="hi">Hindi</option>
+            <option value="de">German</option>
             <option value="he">Hebrew</option>
             <option value="ru">Russian</option>
+            <option value="pt">Portuguese</option>
+            <option value="bn">Bengali</option>
+            <option value="ja">Japanese</option>
+            <option value="pa">Punjabi</option>
         </select>
-        <input class="btn btn-primary" type="submit" value="Translate">
+        <input class="btn btn-primary" type="submit" value="Run Translation">
       </form>
     </div>
   </div>

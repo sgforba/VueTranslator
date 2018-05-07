@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="text-center">
-    <h1>World Translator</h1>
+    <h1>TranslationRun</h1>
     <h5  class="text-muted">Powered by Vue.js and Yandex</h5>
     <hr>
     <TranslateForm v-on:formSubmit="translateText"></TranslateForm>
